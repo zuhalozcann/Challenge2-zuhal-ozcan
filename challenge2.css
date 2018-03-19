@@ -8,7 +8,6 @@ body,html{
 	    background-image: url("paper4.jpg");
 
 	    /* Full height */
-	    height: 100%; 
 
 	    /* Center and scale the image nicely */
 	    background-position: center;
@@ -47,7 +46,7 @@ body,html{
 
 
 #gmt{
-	color:black;
+	color:white;
 	font-family:'SignPainter';
 	font-size:40px;
 	margin-top:100px;
@@ -75,6 +74,20 @@ button{
 @media (min-width: 768px) {
 
 
+body,html{
+		height: 100%;
+		margin:0;
+	    /* The image used */
+	    background-image: url("paper4.jpg");
+
+	    /* Full height */
+	    height: 100%; 
+
+	    /* Center and scale the image nicely */
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+}
 
 .flex-container {
 	  display: flex;
@@ -109,7 +122,7 @@ button{
 
 
 #gmt{
-	color:black;
+	color:white;
 	font-family:'SignPainter';
 	font-size:60px;
 	margin-top:100px;
@@ -160,7 +173,7 @@ button{
 
 
 #gmt{
-	color:black;
+	color:white;
 	font-family:'SignPainter';
 	font-size:80px;
 	margin-top:100px;

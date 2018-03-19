@@ -25,6 +25,7 @@ function checkTime(i) {
     return i;
 }
 
+//functie voor de button
 function myFunction (){
 
     var hour = new Date().getHours();

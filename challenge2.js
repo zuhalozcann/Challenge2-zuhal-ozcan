@@ -32,7 +32,7 @@ function myFunction (){
     var hour = new Date().getHours();
     var time;
 
-    if (hour > 9) {
+    if (hour < 9) {
         time ="Good morning";
     }
 

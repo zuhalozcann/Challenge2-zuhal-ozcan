@@ -42,3 +42,20 @@ body{
 	text-align:center;
 	font-weight:normal;
 }
+
+button{
+	color:black;
+	background-color:white;
+	width:100px;
+	height:30px;
+	font-family: 'Futura';
+}
+
+#demo{
+	font-family:'SignPainter';
+	color:white;
+	font-weight:normal;
+	font-size:30px;
+
+}
+/* einde mobiele scherm*/

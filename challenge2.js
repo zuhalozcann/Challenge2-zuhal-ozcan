@@ -33,7 +33,6 @@ function myFunction (){
     var time;
 
     if (hour > 9) {
-        document.body.style.backgroundColor = "blue";
         time ="Good morning";
     }
 

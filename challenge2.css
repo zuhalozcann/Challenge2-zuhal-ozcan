@@ -12,7 +12,7 @@ body,html{
 	    /* Center and scale the image nicely */
 	    background-position: center;
 	    background-repeat: no-repeat;
-	    background-size: cover;
+	    background-size: 500px 1000px;
 }
 
 .flex-container {
@@ -75,18 +75,18 @@ button{
 
 
 body,html{
-		height: 100%;
+	
 		margin:0;
 	    /* The image used */
 	    background-image: url("paper4.jpg");
 
 	    /* Full height */
-	    height: 100%; 
+	   
 
 	    /* Center and scale the image nicely */
 	    background-position: center;
 	    background-repeat: no-repeat;
-	    background-size: cover;
+	    background-size: 1000px 1000px;
 }
 
 .flex-container {
@@ -139,6 +139,20 @@ body,html{
 
 @media (min-width: 1024px) {
 
+body,html{
+	
+		margin:0;
+	    /* The image used */
+	    background-image: url("paper4.jpg");
+
+	    /* Full height */
+	   
+
+	    /* Center and scale the image nicely */
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: 1024px 1835px;
+}
 
 
 .flex-container {

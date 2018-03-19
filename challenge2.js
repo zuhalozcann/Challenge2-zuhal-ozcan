@@ -24,3 +24,35 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
+
+function myFunction (){
+
+    var hour = new Date().getHours();
+    var time;
+
+    if (hour < 9) {
+        time ="Good morning";
+    }
+
+    else if (hour == 9) {
+        time = "Breakfast time";
+    }
+
+    else if (hour == 13){
+        time = "Lunch time";
+    }
+    
+    else if (hour == 18) {
+        time = "Dinner time";
+    }
+
+    else if (hour == 23){
+        time = "Time to sleep";
+    }
+
+    else {
+        time = "Have a nice day";
+
+    }
+    document.getElementById("demo").innerHTML = time;
+    }

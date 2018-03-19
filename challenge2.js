@@ -1,3 +1,4 @@
+//Tweenmax code
 var tween = TweenMax.to($box, 1, {
 x: '-=50', // Tween to the current x value minus 50
 y: '+=50', // Tween to the current y value plus 50
@@ -7,7 +8,7 @@ ease:Back.easeOut
 tl.add(tween, 2); // Add tween 2 seconds into the timeline
 
 
-
+// function for the time
 function startTime() {
     var today = new Date();
     var h = today.getHours();

@@ -56,3 +56,18 @@ function myFunction (){
     }
     document.getElementById("demo").innerHTML = time;
     }
+
+
+    function myFunction (){
+        var hour = new().getHours();
+     
+
+        if (hour > 12){
+            document.body.style.backgroundColor = "blue";
+        }
+
+        else {
+            document.body.style.backgroundColor = "black";
+        }
+        
+        
